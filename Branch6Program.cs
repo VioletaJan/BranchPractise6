@@ -42,3 +42,32 @@ if (day > 0 && day <= 31)
             }
         }
     }
+
+//// BONUS 
+
+Console.WriteLine("Please write the day:");
+string day1 = Console.ReadLine();
+
+Console.WriteLine("Please write the month:");
+string month1 = Console.ReadLine();
+
+Console.WriteLine("Please write the year:");
+string year1 = Console.ReadLine();
+
+Console.WriteLine("Please select the date formatting. 1 - YYYY/MM/DD, 2- YYYY.MM.DD");
+var answer = Console.ReadLine();
+
+/*
+if (answer = "1")
+{ Console.WriteLine(year1 + "/" + month1 + "/" + day1);
+}
+
+if (answer = "2")
+{
+    Console.WriteLine(day1 + "/" + month1 + "/" + year1);
+}
+else
+{
+    Console.WriteLine("Please select from given options: 1 - YYYY/MM/DD, 2- YYYY.MM.DD");
+}
+*/
